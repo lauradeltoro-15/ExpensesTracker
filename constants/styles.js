@@ -1,9 +1,9 @@
 export const GLOBAL_STYLES = {
   COLORS: {
-    PRIMARY__50: "#e4d9fd",
+    PRIMARY_50: "#e4d9fd",
     PRIMARY_100: "#c6affc",
     PRIMARY_200: "#a281f0",
-    PRIMARY__400: "#5721d4",
+    PRIMARY_400: "#5721d4",
     PRIMARY_500: "#3e04c3",
     PRIMARY_700: "#2d0689",
     PRIMARY_800: "#200364",
