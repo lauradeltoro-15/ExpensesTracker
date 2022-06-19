@@ -10,7 +10,7 @@ export const RecentExpensesScreen = () => {
   const today = new Date();
   const date7DaysAgo = getDateMinusDays(today, 7);
   const recentExpenses = expensesContext.expenses.filter(
-    (expense) => expense.date > date7DaysAgo
+    (expense) => expense.date > date7DaysAgo && expense.date <= today
   );
 
   return <ExpensesOutput periodName="Last 7 days" expenses={recentExpenses} />;
