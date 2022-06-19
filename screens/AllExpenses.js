@@ -9,6 +9,7 @@ export const AllExpensesScreen = () => {
     <ExpensesOutput
       periodName="Total"
       expenses={expensesContext.expenses}
+      fallbackText="No registered expenses found"
     />
   );
 };
