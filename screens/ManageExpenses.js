@@ -15,9 +15,15 @@ export const ManageExpenseScreen = ({ route, navigation }) => {
     });
   }, [isEditing, navigation]);
 
-  const deleteHandler = () => {};
-  const cancelHandler = () => {};
-  const confirmHandler = () => {};
+  const deleteHandler = () => {
+    navigation.goBack();
+  };
+  const cancelHandler = () => {
+    navigation.goBack();
+  };
+  const confirmHandler = () => {
+    navigation.goBack();
+  };
 
   return (
     <View style={styles.container}>
